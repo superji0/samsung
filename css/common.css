@@ -1,0 +1,40 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body{font-family:'Noto Sans KR';}
+html,body { height:100%; }
+body,div,p,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,button,input { margin:0; padding:0; }
+html { scroll-behavior:smooth; }
+h1,h2,h3,h4 { font-size:1vw; }
+ul,li,ol { list-style:none; }
+img,fieldset,iframe { border:0; }
+img { vertical-align:top; }
+table { border-collapse:collapse; }
+em {font-style: normal; background: none;}
+button {border: 0; background-color: transparent; cursor: pointer;}
+a {text-decoration: none; color: #222; font-size: 16px; font-weight: 400;}
+input {outline: none;}
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+
+.blind {position:absolute; left:0; top:-99999px;}
+.skip_navigation a { position:absolute; left:0px; top:-9999px; }
+.skip_navigation a:focus { position:static; display:block; background-color:black; text-align:center;color:white; padding:5px;}
+
+:root {
+  /* color */
+    --main-color:#278AFF;
+    --sub-color:#3295D7;
+
+
+}
+
+
+button.btn1 { padding: 6px 16px; background:var(--main-color); color: #fff; border: none; border-radius: 20px; font-size: 1vw; cursor: pointer;}
+#main .nav_wrap h3 { margin-bottom: 10px; border-bottom: 1px solid #222;font-size: 1.2vw; color: var(--main-color); padding-bottom: 5px; }
+
+
+.visual_txt {font-size: 24px; font-weight: 500; letter-spacing: -1px;}
+.visual_txt p em {color: var(--main-color); font-size: 28px; font-weight: 700;}.visual_txt em {font-size: 16px; vertical-align: middle; }
